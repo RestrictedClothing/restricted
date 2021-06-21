@@ -1,0 +1,103 @@
+/* Master styles */
+body {
+    font-family: "Lato, sans-serif";
+    margin: 0px;
+}
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+/* Nav styles */
+
+.nav-wrapper > .right-side > div {
+    margin-left: 20px;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+    color: black !important;
+}
+
+/* Portfolio styles */
+
+
+.portfolio-item-wrapper {
+  grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+
+.img-text-wrapper:hover .subtitle {
+    font-weight: 600;
+    color: white;
+}
+
+.img-brighten {
+    transition: 1s;
+    filter: brightness(70%);
+}
+
+/* About page */
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+    width: 100%;
+
+}
+
+.profile-content-wrapper {
+    padding: 30px;
+
+}
+
+.profile-content-wrapper h1 {
+    color: black ;
+}
+
+/* Betalningsätt */
+
+.payment-content-wrapper {
+    text-align: center;
+    color: black;
+    padding: 30px;
+    
+}
